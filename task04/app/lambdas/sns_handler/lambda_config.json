@@ -11,8 +11,8 @@
   "dependencies": [],
   "event_sources": [
     {
-      "resource_type": "sns_trigger",
-      "target_queue": "lambda_topic",
+      "resource_type": "sns_topic_trigger",
+      "target_topic": "lambda_topic",
       "batch_size": 10
     }
   ],
